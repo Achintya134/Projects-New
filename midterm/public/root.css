@@ -1,0 +1,56 @@
+html {
+    background: linear-gradient(#cc5500, #fbab60);
+    color: #421C00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    position: relative;
+    background-color: #1263a3;
+    color: whitesmoke;
+    width: 103%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 10px;
+    height: 16%;
+    top: -12px;
+    left: -11px;
+}
+
+.header a{
+    position: relative;
+    top: 38%;
+    left: -3%;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 13px;
+    height: fit-content;
+}
+
+.header h1{
+    position: relative;
+    top: 15%;
+    left: 3%;
+}
+
+.header p{
+    padding-top: 28px;
+}
+
+.link-1{
+    padding: 0px 5px;
+}
+
+.nav-links{
+    position: relative;
+    top: 38%;
+    left: -3%;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 13px;
+    height: fit-content;
+}
+

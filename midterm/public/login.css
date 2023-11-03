@@ -1,0 +1,45 @@
+.login-btn{
+    position: absolute;
+    height: 25px;
+    width: 11%;
+    /* justify-content: space-between; */
+    font-weight: bolder;
+    font-size: 12px;
+    left: 80px;
+    top: 200.5px;
+    border-radius: 19px;
+    cursor: pointer;
+    border-style: outset;
+    background-color: darkorchid;
+    color: whitesmoke;
+}
+
+.login-form{
+    background-color:green;
+    font-weight:bold;
+    height:fit-content;
+    width: fit-content;
+    padding: 10px;
+
+
+}
+
+.username{
+    height: 32%;
+    border-radius: 3px;
+}
+
+.link-1{
+    padding: 0px 5px;
+}
+
+.nav-links{
+    position: relative;
+    top: 38%;
+    left: -3%;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 13px;
+    height: fit-content;
+}

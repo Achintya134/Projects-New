@@ -1,0 +1,14 @@
+.nav-links {
+    position: relative;
+    top: 38%;
+    left: -3%;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 13px;
+    height: fit-content;
+}
+
+.link-1{
+    padding: 0px 5px;
+}
