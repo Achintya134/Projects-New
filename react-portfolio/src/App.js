@@ -3,6 +3,9 @@ import useMediaQuery from './hooks/useMediaQuery'
 import Navbar from './scenes/Navbar'
 import MySkills from './scenes/MySkills'
 import LineGradient from "./components/LineGradient"
+import Contact from "./scenes/Contact"
+import Projects from "./scenes/Projects.jsx"
+import Testimonials from "./scenes/Testimonials"
 import Landing from './scenes/Landing'
 import DotGroup from './scenes/DotGroup'
 function App() {
@@ -34,6 +37,22 @@ function App() {
         <MySkills/>
 
       </div>
+      <LineGradient/>
+      <div className="w-5/6 mx-auto">
+        <Projects/>
+
+      </div>
+      <LineGradient/>
+      <div className="w-5/6 mx-auto md:h-full">
+        <Testimonials/>
+
+      </div>
+      <LineGradient/>
+      <div className="w-5/6 mx-auto md:h-full">
+        <Contact/>
+
+      </div>
+      
      
     </div>
   );
